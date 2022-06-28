@@ -1,3 +1,4 @@
+#https://cs231n.github.io/neural-networks-case-study/
 def spiral_data(points, classes):
     X = np.zeros((points*classes, 2))
     y = np.zeros(points*classes, dtype='uint8')
